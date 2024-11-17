@@ -2,10 +2,10 @@
 [![Format](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/format.yml)
 [![Lint](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/lint.yml)
 [![Test](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/test.yml)
-# IDS706-Individual Project #1
+# Exploratory Analysis Using Pandas to Markdown fine
 ## File Structure 
 ```
-Diego_Rodriguez_Individual_Project#1/
+Pandas_to_Report/
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   └── Dockerfile
@@ -34,7 +34,7 @@ Diego_Rodriguez_Individual_Project#1/
 [Walkthrough the project](https://www.youtube.com/watch?v=V1b-8KlwHVU)
 
 ## Purpose of project
-The purpose of this project is to present some transformation of data using Pandas with World Bank data and automating the publishing process into Data_summary.md with CI/CD. 
+The purpose of this project is to present some transformation of data using Pandas. This repository use data from the World Bank, World Development Indicator dataset and automating the publishing process into Data_summary.md with CI/CD. 
 
 
 ## Visualizations
@@ -70,28 +70,43 @@ Describe Mortality rate, infant (per 1,000 live births):
 | max | 91.60 |
 
 ## Requirements
-devops
-black ==22.3.0 - Formatter 
-click == 8.1.3
-pytest == 7.4.0  - For Testing
-pytest-cov == 4.0.0 - For Testing
-nbval==0.10.0 - For Testing
+1. DevOps
+   
+   black ==22.3.0
+   
+   click == 8.1.3
 
-rust based linter
-ruff==0.0.284
-boto3==1.24.87
+   pytest == 7.4.0
 
-web
-fastapi == 0.85.0
-uvicorn == 0.18.3
+   pytest-cov == 4.0.0
 
-Python libraries
-pandas == 2.2.2
-numpy == 2.1.0
-seaborn == 0.13.2
-jupyter == 1.0.0  
-tabulate==0.9.0
+   nbval==0.10.0
+   
+2. Linter
 
-## CI/CD
+   ruff==0.0.284
+
+   boto3==1.24.87
+
+3. Web
+
+   fastapi == 0.85.0
+
+   uvicorn == 0.18.3
+
+4. Analytics
+
+   pandas == 2.2.2
+
+   numpy == 2.1.0
+
+   seaborn == 0.13.2
+
+   jupyter == 1.0.0
+
+   tabulate==0.9.0
+
+## Testing and Linting
 Testing files go with the name test_* and work for main and library files. 
+<img width="1059" alt="image" src="https://github.com/user-attachments/assets/17579751-3ff5-4ebd-b2dd-b3b51c4406d4">
 
