@@ -2,7 +2,7 @@
 [![Format](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/format.yml)
 [![Lint](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/lint.yml)
 [![Test](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Diego_Rodriguez_Individual_Project1/actions/workflows/test.yml)
-# Exploratory Analysis Using Pandas to Markdown fine
+# Exploratory Analysis Using Pandas to Markdown
 ## File Structure 
 ```
 Pandas_to_Report/
