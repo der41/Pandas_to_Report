@@ -8,9 +8,11 @@ def summary_statistics(df, x):
 
 
 def log_func(df, x):
-    if x[0:3] == "log" or x[0:3] == "Log":
+    """Create a log transformed column if a prefix is detected."""
+    lower = x.lower()
+    if lower.startswith("log"):
         df[x] = np.log(df[x[4:]])
-    if x[0:2] == "ln" or x[0:2] == "ln":
+    elif lower.startswith("ln"):
         df[x] = np.log(df[x[3:]])
     return df
 

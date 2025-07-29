@@ -43,6 +43,14 @@ def test_log_func():
     assert (df[y_log] == np.log(df[y_log[4:]])).any()
 
 
+def test_log_func_ln():
+    """Ensure ln prefix is also handled correctly."""
+    y_ln = "ln y"
+    df = pd.read_csv(file)
+    df = log_func(df, y_ln)
+    assert np.allclose(df[y_ln], np.log(df[y_ln[3:]]))
+
+
 def test_table_format():
     """Testing that .md formatting is running"""
     assert (
